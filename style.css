@@ -126,7 +126,7 @@ body {
 
   .navbar .menu ul {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
     line-height: 0.1;
   }
 
@@ -138,6 +138,10 @@ body {
   .hero .hero-heading h1 {
     font-size: 2rem;
     text-align: justify;
+  }
+
+  .hero .hero-para {
+    margin-left: 3rem;
   }
 
   .hero .hero-para p {
@@ -175,6 +179,6 @@ body {
 
   .hero .hero-btn {
     margin-top: 0rem;
-    margin-left: 0.5rem;
+    margin-left: -10rem;
   }
 }
