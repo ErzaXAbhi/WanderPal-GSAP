@@ -125,9 +125,8 @@ body {
   }
 
   .navbar .menu ul {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    line-height: 0.1;
+    display: flex;
+    justify-content: space-between;
   }
 
   .navbar .menu ul li {
@@ -141,12 +140,13 @@ body {
   }
 
   .hero .hero-para {
-    margin-left: 3rem;
+    margin-left: 5rem;
   }
 
   .hero .hero-para p {
     font-size: 1rem;
     width: 70%;
+    text-align: justify;
   }
 
   .hero .hero-img img {
