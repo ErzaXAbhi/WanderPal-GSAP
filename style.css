@@ -134,6 +134,10 @@ body {
     font-weight: 500;
   }
 
+  .hero {
+    position: relative;
+  }
+
   .hero .hero-heading h1 {
     font-size: 2rem;
     text-align: justify;
@@ -155,6 +159,11 @@ body {
     object-fit: cover;
   }
 
+  .hero .hero-btn {
+    z-index: 999;
+    position: absolute;
+  }
+
   .hero .hero-btn button {
     padding: 0.5rem;
   }
@@ -169,6 +178,8 @@ body {
     border-radius: 100px 100px 0 0;
     overflow: hidden;
     margin-top: 1rem;
+    position: absolute;
+    z-index: -9;
   }
 
   .hero .hero-img img {
