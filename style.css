@@ -87,6 +87,12 @@ body {
   border-radius: 30px;
   border: 2px solid var(--dark);
   position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+
+.hero .hero-btn button:hover {
+  background: var(--dark);
+  color: var(--red);
 }
 
 .hero .hero-btn button a {
@@ -120,6 +126,6 @@ body {
   }
 
   .navbar .menu ul li {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
